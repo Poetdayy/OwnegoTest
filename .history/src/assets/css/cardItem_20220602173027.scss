@@ -1,0 +1,8 @@
+@import "./variables";
+
+.cardItem {
+  padding: 20px;
+  &_name {
+    border-bottom: solid 2px $secondary_color;
+  }
+}

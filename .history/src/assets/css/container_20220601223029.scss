@@ -1,0 +1,14 @@
+@import "./variables";
+
+.content {
+  background-color: $primary_background;
+  position: relative;
+  &_container {
+    padding: 0px 50px;
+  }
+}
+
+#dropdownMenuButton {
+  background-color: $primary_background;
+  border-color: $secondary_color;
+}

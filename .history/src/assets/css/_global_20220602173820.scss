@@ -1,0 +1,36 @@
+@import "./variables";
+
+body {
+  font-size: 13px;
+  font-family: "Mulish", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  color: $secondary_color;
+  position: relative;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,9 @@
+@import "./variables";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: $primary_background;
+}

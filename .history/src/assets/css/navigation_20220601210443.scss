@@ -1,0 +1,33 @@
+@import "./variables";
+
+.nav_container {
+  background-color: $secondary_color;
+  height: 100%;
+  width: 25%;
+}
+
+.nav_listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  & li {
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    text-align: center;
+    height: 15px;
+    &:hover {
+      background-color: #304476;
+    }
+  }
+
+  & a {
+    font-size: 20px;
+    color: #596680;
+    line-height: 15px;
+    &:hover {
+      color: white;
+    }
+  }
+}

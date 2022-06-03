@@ -1,0 +1,22 @@
+@import "./variables";
+
+.nav_container {
+  background-color: $secondary_color;
+  height: 100%;
+  width: 33.3%;
+}
+
+.nav_listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  & li {
+    margin-bottom: 20px;
+  }
+  & a {
+    font-size: 30px;
+    color: #596680;
+  }
+}

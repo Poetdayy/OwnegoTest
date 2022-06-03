@@ -1,0 +1,20 @@
+@import "./variables";
+
+.content {
+  background-color: $primary_background;
+  position: absolute;
+  left: 25%;
+  top: 0%;
+  display: flex;
+  justify-content: center;
+  &_container {
+    padding: 0px 50px;
+  }
+}
+
+#dropdownMenuButton {
+  background-color: $primary_background;
+  border-color: $secondary_color;
+  position: absolute;
+  float: left;
+}

@@ -1,0 +1,8 @@
+@import "./variables";
+
+.nav_container {
+  background-color: $secondary_color;
+  height: 100%;
+  width: 33.3%;
+  display: flex;
+}

@@ -1,0 +1,7 @@
+@import "./global";
+@import "./navigation.scss";
+
+.container {
+  display: grid;
+  grid-template-columns: 2;
+}
